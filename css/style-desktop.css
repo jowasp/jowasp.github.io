@@ -1,0 +1,234 @@
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+
+	#header-wrapper
+	{
+	}
+	
+	#banner-wrapper
+	{
+	}
+	
+	#main-wrapper
+	{
+	}
+	
+	#footer-wrapper
+	{
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header 
+	{
+		height: 11.85em;
+	}
+
+		#header h1 
+		{
+			float: left;
+			letter-spacing: -1px;
+			font-size: 3em;
+			font-weight: 700;
+		}
+		
+			#header h1 a 
+			{
+				display: inline-block;
+				padding-top: 2.00em;
+				text-decoration: none;
+				color: #FFF;
+			}
+
+				#header h1 a span 
+				{
+					font-weight: 200;
+				}
+	
+		#header p 
+		{
+			padding-top: .60em;
+			letter-spacing: -.05em;
+			font-size: 1.3em;
+			color: #777;
+		}
+
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+
+	#nav 
+	{
+		height: 3.75em;
+		margin-top: 6.00em;
+		background: #5f6b8b url(images/shadow01.png) no-repeat center top;
+		border-radius: 5px;
+		box-shadow: 5px 0 5px -5px rgba(0, 0, 0, 0.4), 0 6px 5px -5px rgba(0, 0, 0, 0.4), -5px 0 5px -5px rgba(0, 0, 0, 0.4);
+	}
+	
+		#nav ul 
+		{
+			margin: 0;
+			padding: 0;
+			text-align: center;
+ 		}
+		
+		#nav li 
+		{
+			display: inline-block;
+		}
+		
+		#nav a 
+		{
+			display: block;
+			padding: 0 1.25em;
+			line-height: 3.75em;
+			text-decoration: none;
+			font-size: 1.00em;
+			color: #FFF;
+			outline: 0;
+		}
+		
+		#nav .current_page_item
+		{
+		}
+
+		#nav > ul > li > ul
+		{
+			display: none;
+		}
+
+	.dropotron
+	{
+		background: #5f6b8b;
+		background: rgba(95,107,139,0.98);
+		border-radius: 5px;
+		padding: 1.25em;
+		line-height: 2.25em;
+		min-width: 15em;
+		box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
+	}
+	
+		.dropotron-level-0
+		{
+			border-top-left-radius: 0;
+			border-top-right-radius: 0;
+			padding-top: 0.5em;
+		}
+	
+		.dropotron a,
+		.dropotron span
+		{
+			color: #dfe2e8;
+			text-decoration: none;
+			outline: 0;
+		}
+		
+		.dropotron li:hover > a,
+		.dropotron li:hover > span
+		{
+			color: #fff;
+		}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+		height: 28.00em;
+	}
+	
+		#banner h2
+		{
+			padding: 1.25em 0 0.40em 0;
+			letter-spacing: -0.05em;
+			font-size: 3.50em;
+		}
+		
+		#banner .subtitle
+		{
+			line-height: 1.50em;
+			letter-spacing: -0.05em;
+			font-size: 1.65em;
+		}
+
+/*********************************************************************************/
+/* Feature                                                                       */
+/*********************************************************************************/
+
+	#feature-content
+	{
+	}
+
+	#feature-content h2
+	{
+	}
+	
+	#feature-content span
+	{
+	}
+
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+	#footer
+	{
+	}
+
+/*********************************************************************************/
+/* Main                                                                          */
+/*********************************************************************************/
+
+	#main
+	{
+	}
+	
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+
+	#content
+	{
+	}
+
+		#content article
+		{
+			margin-bottom: 1.75em !important;
+		}
+
+		#content .image-left
+		{
+			margin-left: 0;
+		}
+
+/*********************************************************************************/
+/* Sidebar                                                                       */
+/*********************************************************************************/
+
+	#sidebar
+	{
+	}
+	
+		#sidebar section
+		{
+			margin-bottom: 1.75em !important;
+		}
+
+		#sidebar .button
+		{
+			margin-top: 0 !important;
+		}
+	
+
+
+
