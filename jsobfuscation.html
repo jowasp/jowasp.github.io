@@ -1,0 +1,161 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title></title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" />
+		<script src="js/jquery-1.8.2.min.js"></script>
+		<script src="css/5grid/init.js?use=mobile,desktop,1000px&amp;mobileUI=1&amp;mobileUI.theme=none"></script>
+		<script src="js/jquery.dropotron-1.2.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/5grid/core.css" />
+			<link rel="stylesheet" href="css/5grid/core-desktop.css" />
+			<link rel="stylesheet" href="css/5grid/core-1200px.css" />
+			<link rel="stylesheet" href="css/5grid/core-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+		<!--[if lte IE 7]><link rel="stylesheet" href="css/ie7.css" /><![endif]-->
+	</head>
+	<body>
+
+		<div id="wrapper">
+
+			<!-- Header Wrapper -->
+				<div id="header-wrapper">
+
+					<!-- Header -->
+						<header id="header">
+							<div class="5grid-layout">
+								<div class="row">
+
+									<!-- Logo -->
+										<div class="4u" id="logo">
+											<section>
+												<h1><a href="#" class="mobileUI-site-name">OWASP<span>Research</span></a></h1>
+											</section>
+										</div>
+
+									<!-- Nav -->
+										<div class="8u">
+
+											<nav id="nav" class="mobileUI-site-nav">
+												<ul>
+													<li><a href="index.html">Homepage</a></li>
+													<li>
+														<a href="researchtopics.html" class="arrow">Topics</a>
+														<ul>
+															<li><a href="researchtopics.html">OWASP Benchmark</a></li>
+															<li><a href="researchtopics.html">Javascript Cryptography</a></li>
+															<li><a href="researchtopics.html">Shell-Code</a></li>
+														</ul>
+													</li>
+												</ul>
+											</nav>
+
+										</div>
+
+								</div>
+							</div>
+						</header>
+
+				</div>
+
+			<!-- Main Wrapper -->
+				<div id="main-wrapper">
+					<div class="5grid-layout">
+						<div class="row">
+
+							<!-- Content -->
+								<div id="content" class="12u mobileUI-main-content">
+
+									<article class="box">
+										<h2>OWASP Research Topics</h2>
+										<p class="subtitle">Projects</p>
+										
+										<img src="images/owasp_logo_icon.png" width="200px" height="200px"></a>
+										
+										<p>
+
+OWASP projects is a rich source of materials, which contains free , open source  content. OWASP research initiative wants to focus in projects that have a high component of innovation or require further research, with the purpose to find solutions to major problems, security engineers and the security community in general are looking for.
+The following are some of the projects we are working on.
+To discuss further about them, please join our group list: https://groups.google.com/a/owasp.org/forum/?hl=en#!forum/owasp-research
+
+<h2>OWASP Benchmark Project</h2>
+<p>We want to conduct an independent research regarding the capabilities of this project. For more information please check :
+	https://www.owasp.org/index.php/Benchmark
+</p>
+
+<h2>Research: Javascript Cryptography/Obfuscation techniques used in Drive-By-Dowload attacks</h2>
+
+<p>The recent and common practice of hackers, is to infect with malware using a rising methodology called: ‘Drive-by-Download’. The Ankler Kit Exploit  for example uses Obfuscated Javascript code in these attacks. The attack targets vulnerable browsers (Internet Explorer) injecting payload, it creates a malicious webpage containing encrypted or obfuscated javascript code which hides or disguises the exploitation part.
+
+Given the big popularity of this attack, the research would like to answer the following questions</p>
+
+Research questions:
+<ol class="style1">
+<li>Are actual browsers able to identify web pages containing these malicious- obfuscated javascript code?</li>
+<li>If they do, what kind of messages are displayed to the users?</li>
+<li>Are these messages enough to alert users regaridng potential exploitation?</li>
+<li>If not, what possible solutions could be developed to alert potential victims or users about the attack before is to late?</li>
+</ol>
+<b>Preliminary findings</b></br></br>
+<p>We did a small test with a malicious webpage which contains obfuscated Javascript code (using BASE64) and it can be easily de-obfuscated using Javascript De-obfuscater Firefox plug-in.
+After reading the code, the browser targeted is Microsoft IE trying to execute an ActiveObjectX component. Opening this page in IE version 11.0.9600.18053 does alert the user about a blocked
+content but it does not explain the nature and why. Indeed an inexperienced user could just unblock the content, thinking that he has land in a legitimate site or open the html page.
+If the user allows to unblocked the content, the script proceeds to contact through UDP/DNS a suspicious domain name.
+ </p>
+
+ <h2>OWASP Python Security Project</h2>
+ <p>Python Security is a free, open source, OWASP project that aims at creating a hardened version of python that makes it easier for security professionals and developers to write applications more resilient to attacks and manipulations.
+
+The project is designed to explore how web applications can be developed in python by approaching the problem from three different angles
+We are looking for volunteers to help us work on a harded version. For more information visit: https://www.owasp.org/index.php/OWASP_Python_Security_Project
+</p>
+
+
+<h2>OWASP ZSC Tool project</h2>
+<p>OWASP ZSC is an open source software in python language which lets you generate customized shellcodes for listed operation systems.
+This software could be run on Linux/OSX under python 2.7.x.</br>
+<a href="https://www.owasp.org/index.php/OWASP_ZSC_Tool_Project"> Please visit the project page for more info</a></p>
+</p>
+
+									</article>
+
+									<!-- Two Column Content -->
+									<!-- Two Column Content -->
+
+								</div>
+							<!-- Content Ends Here -->
+
+						</div>
+					</div>
+				</div>
+
+			<!-- Copyright Wrapper -->
+				<div id="copyright-wrapper">
+
+					<div class="5grid-layout">
+						<div class="row">
+							<div class="12u">
+
+								<!-- Copyright -->
+									<div id="copyright">
+										&copy; OWASP Research
+									</div>
+
+							</div>
+						</div>
+					</div>
+
+				</div>
+			<!-- Copyright Wrapper -->
+
+		</div>
+
+	</body>
+</html>
