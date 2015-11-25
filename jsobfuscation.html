@@ -79,8 +79,6 @@
 										<p>
 To discuss further about them, please join our group list: https://groups.google.com/a/owasp.org/forum/?hl=en#!forum/owasp-research
 
-<h2>Research: Javascript Cryptography/Obfuscation techniques used in Drive-By-Dowload attacks</h2>
-
 <p>The recent and common practice of hackers, is to infect with malware using a rising methodology called: ‘Drive-by-Download’. The Ankler Kit Exploit  for example uses Obfuscated Javascript code in these attacks. The attack targets vulnerable browsers (Internet Explorer) injecting payload, it creates a malicious webpage containing encrypted or obfuscated javascript code which hides or disguises the exploitation part.
 Given the big popularity of this attack, the research would like to answer the following questions</p>
 
@@ -106,7 +104,7 @@ Ali Ramzoo has kindly created some basic scripts that shows these functions of o
 
 First put the file.html and good.js on your desktop in same directory.</br>
 Open <a href='file.html'>file.html</a> and you will see it showing the clock.</br>
-Now run the python file. it will open <a href='good.js'>good.js</a> file in same directory and output is <a href='encode.js'>encode.js</a> [see  encode.js too but you can generate it yourself]</br>
+Now run the <a href='py/obsgen.py'>python file</a>. it will open <a href='good.js'>good.js</a> file in same directory and output is <a href='encode.js'>encode.js</a> [see  encode.js too but you can generate it yourself]</br>
 Now edit html source code and replace src="good.js" with src="encode.js" [or replace the content of encode.js with good.js]</br>
 open your file.html again and you will see it open the same as before. just we encode good.js :)</br>
 This way we can generate more powerful encodes automaticly with python and conver any .js file to random encoding or some encoding with formula ...</br>
