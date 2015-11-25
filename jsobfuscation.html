@@ -85,11 +85,6 @@ OWASP projects is a rich source of materials, which contains free , open source 
 The following are some of the projects we are working on.
 To discuss further about them, please join our group list: https://groups.google.com/a/owasp.org/forum/?hl=en#!forum/owasp-research
 
-<h2>OWASP Benchmark Project</h2>
-<p>We want to conduct an independent research regarding the capabilities of this project. For more information please check :
-	https://www.owasp.org/index.php/Benchmark
-</p>
-
 <h2>Research: Javascript Cryptography/Obfuscation techniques used in Drive-By-Dowload attacks</h2>
 
 <p>The recent and common practice of hackers, is to infect with malware using a rising methodology called: ‘Drive-by-Download’. The Ankler Kit Exploit  for example uses Obfuscated Javascript code in these attacks. The attack targets vulnerable browsers (Internet Explorer) injecting payload, it creates a malicious webpage containing encrypted or obfuscated javascript code which hides or disguises the exploitation part.
@@ -108,21 +103,21 @@ Research questions:
 After reading the code, the browser targeted is Microsoft IE trying to execute an ActiveObjectX component. Opening this page in IE version 11.0.9600.18053 does alert the user about a blocked
 content but it does not explain the nature and why. Indeed an inexperienced user could just unblock the content, thinking that he has land in a legitimate site or open the html page.
 If the user allows to unblocked the content, the script proceeds to contact through UDP/DNS a suspicious domain name.
+
+<b>Firefox JavaScript DeObfuscator</b>
+This an  add-on shows you what JavaScript code runs on a web page, even if it is obfuscated and generated on the fly. Simply open JavaScript Deobfuscator from the Web Developer menu and watch the scripts being compiled/executed.
+https://addons.mozilla.org/en-US/firefox/addon/javascript-deobfuscator/
+
+<b>Scripts to obfuscate and deobfuscate</b>
+Ali Ramzoo has kindly created some basic scripts that shows these functions of obfuscation and deofuscation.
+
+First put the file.html and good.js on your desktop in same directory.
+Open file.html and you will see it showing the clock.
+Now run the python file. it will open 'good.js' file in same directory and output is 'encode.js' [see  encode.js too but you can generate it yourself]
+Now edit html source code and replace src="good.js" with src="encode.js" [or replace the content of encode.js with good.js]
+open your file.html again and you will see it open the same as before. just we encode good.js :)
+This way we can generate more powerful encodes automaticly with python and conver any .js file to random encoding or some encoding with formula ...
  </p>
-
- <h2>OWASP Python Security Project</h2>
- <p>Python Security is a free, open source, OWASP project that aims at creating a hardened version of python that makes it easier for security professionals and developers to write applications more resilient to attacks and manipulations.
-
-The project is designed to explore how web applications can be developed in python by approaching the problem from three different angles
-We are looking for volunteers to help us work on a harded version. For more information visit: https://www.owasp.org/index.php/OWASP_Python_Security_Project
-</p>
-
-
-<h2>OWASP ZSC Tool project</h2>
-<p>OWASP ZSC is an open source software in python language which lets you generate customized shellcodes for listed operation systems.
-This software could be run on Linux/OSX under python 2.7.x.</br>
-<a href="https://www.owasp.org/index.php/OWASP_ZSC_Tool_Project"> Please visit the project page for more info</a></p>
-</p>
 
 									</article>
 
