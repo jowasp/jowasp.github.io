@@ -49,9 +49,9 @@
 													<li>
 														<a href="researchtopics.html" class="arrow">Topics</a>
 														<ul>
-															<li><a href="researchtopics.html">OWASP Benchmark</a></li>
-															<li><a href="researchtopics.html">Javascript Cryptography</a></li>
-															<li><a href="researchtopics.html">Shell-Code</a></li>
+															<li><a href="https://www.owasp.org/index.php/Benchmark">OWASP Benchmark</a></li>
+															<li><a href="jsobfuscation.html">Javascript Cryptography</a></li>
+															<li><a href="https://www.owasp.org/index.php/OWASP_ZSC_Tool_Project">Shell-Code</a></li>
 														</ul>
 													</li>
 												</ul>
@@ -87,28 +87,10 @@ To discuss further about them, please join our group list: https://groups.google
 
 <h2>OWASP Benchmark Project</h2>
 <p>We want to conduct an independent research regarding the capabilities of this project. For more information please check :
-	https://www.owasp.org/index.php/Benchmark
+https://www.owasp.org/index.php/Benchmark
 </p>
 
-<h2>Research: Javascript Cryptography/Obfuscation techniques used in Drive-By-Dowload attacks</h2>
-
-<p>The recent and common practice of hackers, is to infect with malware using a rising methodology called: ‘Drive-by-Download’. The Ankler Kit Exploit  for example uses Obfuscated Javascript code in these attacks. The attack targets vulnerable browsers (Internet Explorer) injecting payload, it creates a malicious webpage containing encrypted or obfuscated javascript code which hides or disguises the exploitation part.
-
-Given the big popularity of this attack, the research would like to answer the following questions</p>
-
-Research questions:
-<ol class="style1">
-<li>Are actual browsers able to identify web pages containing these malicious- obfuscated javascript code?</li>
-<li>If they do, what kind of messages are displayed to the users?</li>
-<li>Are these messages enough to alert users regaridng potential exploitation?</li>
-<li>If not, what possible solutions could be developed to alert potential victims or users about the attack before is to late?</li>
-</ol>
-<b>Preliminary findings</b></br></br>
-<p>We did a small test with a malicious webpage which contains obfuscated Javascript code (using BASE64) and it can be easily de-obfuscated using Javascript De-obfuscater Firefox plug-in.
-After reading the code, the browser targeted is Microsoft IE trying to execute an ActiveObjectX component. Opening this page in IE version 11.0.9600.18053 does alert the user about a blocked
-content but it does not explain the nature and why. Indeed an inexperienced user could just unblock the content, thinking that he has land in a legitimate site or open the html page.
-If the user allows to unblocked the content, the script proceeds to contact through UDP/DNS a suspicious domain name.
- </p>
+<h2><a href='jsobfuscation.html'>On going Research: Javascript Cryptography/Obfuscation techniques used in Drive-By-Dowload attacks</a></h2>
 
  <h2>OWASP Python Security Project</h2>
  <p>Python Security is a free, open source, OWASP project that aims at creating a hardened version of python that makes it easier for security professionals and developers to write applications more resilient to attacks and manipulations.
